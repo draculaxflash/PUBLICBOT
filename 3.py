@@ -21,8 +21,8 @@ LOG_FILE = "log.txt"
 PROXY_FILE = "n.txt"
 
 # Function to read user IDs from the file
-def read_users():
-    try:)
+def read_users():try:)
+
         with open(USER_FILE, "r") as file:
             return file.read().splitlines()
     except FileNotFoundError:
@@ -376,7 +376,7 @@ def show_command_logs(message):
 
 @bot.message_handler(commands=['help'])
 def show_help(message):
-    help_text ='''🤖 𝐀𝐯𝐚𝐢??𝐚𝐛𝐥𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬:\n
+    help_text ='''🤖 𝐀𝐯𝐚𝐢??𝐚??𝐥𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬:\n
 🚀 /FLASH : 𝐃𝐃𝐨𝐒 𝐀𝐭𝐭𝐚𝐜𝐤𝐞𝐫. 
 
 🛒 𝐁𝐮𝐲 𝐅𝐫𝐨𝐦 :-\n𝟏.@TG_FLASH92\n
